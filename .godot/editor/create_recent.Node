@@ -1,0 +1,12 @@
+Button
+Label
+Panel
+Control
+CanvasLayer
+CollisionShape3D
+Area3D
+Node3D
+CharacterBody3D
+AnimationPlayer
+Camera3D
+SpringArm3D

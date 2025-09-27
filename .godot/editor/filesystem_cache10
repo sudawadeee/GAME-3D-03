@@ -1,0 +1,122 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1758967761
+export_presets.cfg::TextFile::-1::1758967761::0::1::::<><><>0<>0<><>::
+icon.png::CompressedTexture2D/CompressedTexture2D::6064928923040810511::1758791815::1758791891::1::::<><><>0<>0<>9f3e08f7428b6e9e5c06736518db1b15<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+LICENSE.md::TextFile/TextFile::-1::1758791815::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1758791815::0::1::::<><><>0<>0<><>::
+splash-screen.png::CompressedTexture2D/CompressedTexture2D::18453949746801964::1758791815::1758791891::1::::<><><>0<>0<>9cccf71327f36652599319bf2131df23<>res://.godot/imported/splash-screen.png-ae6c8b07e185ee8a074576008d9ccc5a.ctex::
+::res://animation/::1758893389
+Locomotion-Library.res::AnimationLibrary/AnimationLibrary::8724105843146401664::1758870052::0::1::::<><><>0<>0<><>::
+Melee-Library--OLD.res::AnimationLibrary/AnimationLibrary::1360098959342803832::1758865162::0::1::::<><><>0<>0<><>::
+Mixamo BoneMap.tres::BoneMap/BoneMap::669624810488455992::1758866966::0::1::::<><><>0<>0<><>::
+Running.fbx::PackedScene/PackedScene::5200569905982989119::1758866522::1758866640::1::::<><><>0<>0<>3758165b6c168150b061b48573d0760d<>res://.godot/imported/Running.fbx-b098c5f013a0563af1e7494f838f5fa3.scn::uid://c5qnrxoiip1rr::::res://animation/Running_0.png
+Running_0.png::CompressedTexture2D/CompressedTexture2D::6912357630033586739::1758866522::1758893389::1::::<><><>0<>0<>0cd23cf238b7db87ac10ea97f4cfd995<>res://.godot/imported/Running_0.png-9a9f549b6c5cb560935d6911b9d1f5b8.s3tc.ctex::
+::res://docs/::1758967763
+index.apple-touch-icon.png::CompressedTexture2D::2635174650400586686::1758967763::1758967836::1::::<><><>0<>0<>fa8a44c8caff8e6db092871042f4275f<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::4932667995557293715::1758967763::1758967836::1::::<><><>0<>0<>edb9f704e7d54c3a1b034be07e26caf9<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::2803539416724908024::1758967763::1758967837::1::::<><><>0<>0<>d033c7aa3c92da35ebe67bcabd2a707f<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
+::res://fonts/::1758791891
+license.txt::TextFile/TextFile::-1::1758791815::0::1::::<><><>0<>0<><>::
+lilita_one_regular.ttf::FontFile/FontFile::8919515476375571517::1758791815::1758791891::1::::<><><>0<>0<>e105577cc9fd4f991c0f3fd882a2ec43<>res://.godot/imported/lilita_one_regular.ttf-68cc4ab6825bdd499d1ad608190f5213.fontdata::
+::res://meshes/::1758791815
+brick.res::ArrayMesh/ArrayMesh::3137960325432329460::1758791815::0::1::::<><><>0<>0<><>::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+dust.res::ArrayMesh/ArrayMesh::220084661374259981::1758791815::0::1::::<><><>0<>0<><>::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+::res://models/::1758957654
+block-coin.glb::PackedScene/PackedScene::2599012432958164071::1758791815::1758791898::1::::<><><>0<>0<>2a525f7381b9cba43c208d115b86dbb1<>res://.godot/imported/block-coin.glb-26799c6efd41074eeb3f7c8566032c8e.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+brick-particle.glb::PackedScene/PackedScene::3215755684954889129::1758791815::1758791897::1::::<><><>0<>0<>9b5bdac5b2e76c818169ea4ad5f4f4e8<>res://.godot/imported/brick-particle.glb-1ce284ed15b9117800af66cc9e326935.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+brick.glb::PackedScene/PackedScene::6097744071572402352::1758791815::1758791897::1::::<><><>0<>0<>28199a75f5a118e2039c50da4719e300<>res://.godot/imported/brick.glb-e638d8c24b1ef123aeb8188535621295.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+character.glb::PackedScene/PackedScene::1665923612532723180::1758791815::1758791897::1::::<><><>0<>0<>8baa621393737ceeeaa51079ca461cd6<>res://.godot/imported/character.glb-d7ae052b4627e9fafc1b5a3d6bdef701.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+cloud.glb::PackedScene/PackedScene::3685671992633814062::1758791815::1758791897::1::::<><><>0<>0<>4dffc15723a6e63b1c46df1ab0ada8cf<>res://.godot/imported/cloud.glb-53daedc24f8d7f4baa42baf232c66643.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+coin.glb::PackedScene/PackedScene::10191571266954754::1758791815::1758791897::1::::<><><>0<>0<>64156cc18ae9925015c14a2ade6125a6<>res://.godot/imported/coin.glb-71ddb7e9cec3b646e7e111521df88060.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+colormap.tres::StandardMaterial3D/StandardMaterial3D::3398137116703866989::1758791815::0::1::::<><><>0<>0<><>::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+dust.glb::PackedScene/PackedScene::3593951534583155129::1758791815::1758791897::1::::<><><>0<>0<>a0330e76dfe7cd928393e78f34137f62<>res://.godot/imported/dust.glb-1353ca834ae15b165f2b80c04f99a5a8.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+flag.glb::PackedScene/PackedScene::8512720780998975658::1758791815::1758957654::1::::<><><>0<>0<>1ca08aac27b6fbebb27cd8cd0bb6a462<>res://.godot/imported/flag.glb-0b6fa3c4b5180c1221a26057702dcf53.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+grass-small.glb::PackedScene/PackedScene::7908263898063688924::1758791815::1758791896::1::::<><><>0<>0<>aa6dd61853dc265c8da607e68983406f<>res://.godot/imported/grass-small.glb-0be1c06405ef2ce478dc00acb5be5be8.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+grass.glb::PackedScene/PackedScene::3191885306422088007::1758791815::1758791896::1::::<><><>0<>0<>8d8a7ed2f2165ee8df40bcbd04dcdeec<>res://.godot/imported/grass.glb-0ce858eae1c69c894a569863f13e24f1.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+platform-falling.glb::PackedScene/PackedScene::2997715263494090870::1758791815::1758791896::1::::<><><>0<>0<>2b2def476b1b028a80541103a279ffa9<>res://.godot/imported/platform-falling.glb-a1321a8710589d27b2a6e247cfe23359.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+platform-grass-large-round.glb::PackedScene/PackedScene::384282737403988220::1758791815::1758791895::1::::<><><>0<>0<>badc8ec3fb68ca918642877e3ad39818<>res://.godot/imported/platform-grass-large-round.glb-1baa8c47f88d676b171370cee4874a31.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+platform-large.glb::PackedScene/PackedScene::3350978159153901547::1758791815::1758791896::1::::<><><>0<>0<>0790219726cc1f7c057ce8f859353d3c<>res://.godot/imported/platform-large.glb-0787c0d4110cac7aeebc2ebcb57e003b.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+platform-medium.glb::PackedScene/PackedScene::6922236811345693435::1758791815::1758791896::1::::<><><>0<>0<>7ae0d2dd01320bcdaad8ffbac21b8ef2<>res://.godot/imported/platform-medium.glb-fef62c5a42cae1343dea58f537fab43f.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+platform.glb::PackedScene/PackedScene::8211135330978737945::1758791815::1758791896::1::::<><><>0<>0<>8691f7f6e1c308cbc36772e70a97e885<>res://.godot/imported/platform.glb-3476c7cd272116fb58fd5d0a0eddb703.scn::uid://0odt7cvj574e::::res://models/Textures/colormap.png
+::res://models/Textures/::1758957653
+colormap.png::CompressedTexture2D/CompressedTexture2D::1783840145374340350::1758791815::1758957653::1::::<><><>0<>0<>4c1bfed7aa00e8bcb21bede2237f677e<>res://.godot/imported/colormap.png-c1bc3c3aabeec406ff4b53328583776a.ctex::
+::res://Models_new/::1758959909
+1.png::CompressedTexture2D/CompressedTexture2D::6072663015450037529::1758898719::1758898728::1::::<><><>0<>0<>5dbf0cf5f8ab8a88253d6234571b223b<>res://.godot/imported/1.png-b1340a0f181d103d969a69378a4168d3.s3tc.ctex::
+Barrel.fbx::PackedScene/PackedScene::1424856518302843701::1758792720::1758794606::1::::<><><>0<>0<>dba681705ec342e4dd317b4e97f9ae38<>res://.godot/imported/Barrel.fbx-be23e36779f9175df34c0695e9bf3739.scn::uid://7k5wer2x0trv::::res://Models_new/Barrel_0.png
+Barrel_0.png::CompressedTexture2D/CompressedTexture2D::2268547808820108667::1758792720::1758794606::1::::<><><>0<>0<>7711960a6ec30c6f6736b9777da8a61c<>res://.godot/imported/Barrel_0.png-57c859de523c87d66b13e09ecf4654c6.s3tc.ctex::
+Cardboard Boxes.glb::PackedScene/PackedScene::7876419594527075580::1758871237::1758871268::1::::<><><>0<>0<>35fc51cd80d88fda0376758e43c1326c<>res://.godot/imported/Cardboard Boxes.glb-d3281db7fa9bb4bbe9f0841ac51bb2b8.scn::
+Container Small.glb::PackedScene::443567159045099585::1758958053::1758959909::1::::<><><>0<>0<>96b1b722a27ae19b557e88b558eab4c9<>res://.godot/imported/Container Small.glb-3ac3a6a0d8f367eb011efe6c454191e3.scn::
+Crate 1.glb::PackedScene::6411424060475034254::1758958056::1758958336::1::::<><><>0<>0<>00711b859b5a4aa89c90633ec736e9df<>res://.godot/imported/Crate 1.glb-30dde8370ae6814a5ca50c7c27858ac9.scn::
+Crate.glb::PackedScene/PackedScene::4491617404543905628::1758871240::1758871575::1::::<><><>0<>0<>d7cc2ce45934236d7485b80fa25be348<>res://.godot/imported/Crate.glb-5ae20bd8b280bb1a63a1c88fcb0f315d.scn::
+Dead tree.glb::PackedScene/PackedScene::7864406678004114856::1758899612::1758957654::1::::<><><>0<>0<>1efad580304fad5bf39f1693e958865c<>res://.godot/imported/Dead tree.glb-7df2fb3026c807e80b0831bc85f51910.scn::uid://d4h7v33w8sw24::::res://Models_new/Dead tree_halloweenbits_texture.png
+Dead tree_halloweenbits_texture.png::CompressedTexture2D/CompressedTexture2D::9211171121253930347::1758899613::1758957653::1::::<><><>0<>0<>754fd13d3d0a36c2202421a10b02baa7<>res://.godot/imported/Dead tree_halloweenbits_texture.png-6292dd9cf176ef739bbe92db5302ce72.s3tc.ctex::
+Door.glb::PackedScene::2229213742979420416::1758958062::1758958208::1::::<><><>0<>0<>1a5aad7710cc61aea959e2b2ed55a110<>res://.godot/imported/Door.glb-829388b900a99c96d170e73f84559d23.scn::
+Fence (1).glb::PackedScene/PackedScene::522156389696197990::1758899623::1758957654::1::::<><><>0<>0<>e70fd90d86fe4673f35514f9ca1fb71e<>res://.godot/imported/Fence (1).glb-0164dff6f0713485adf0f35fa842b1a1.scn::
+Fence.glb::PackedScene/PackedScene::4232445152838236082::1758899619::1758957655::1::::<><><>0<>0<>e88adc6cce127b4cf6183d378991d5de<>res://.godot/imported/Fence.glb-4c0e9a5714d01aa1401f75413ce50469.scn::uid://8sxvwiyw44y3::::res://Models_new/Fence_PicketFence_BaseColor.png
+Fence_PicketFence_BaseColor.png::CompressedTexture2D/CompressedTexture2D::2354825801126938376::1758899619::1758957653::1::::<><><>0<>0<>5762404421827dadd062188912c1c35b<>res://.godot/imported/Fence_PicketFence_BaseColor.png-96eb44abda05560908600e1f16bbc844.s3tc.ctex::
+Pallet Broken.glb::PackedScene/PackedScene::3075999334610813876::1758873194::1758893389::1::::<><><>0<>0<>c810742300a71a7f55a65732fa89f33c<>res://.godot/imported/Pallet Broken.glb-b14852d23a7026325b37ac70d4738079.scn::uid://rqya4hlcyxgk::::res://Models_new/Pallet Broken_Zombie_Atlas.png
+Pallet Broken_Zombie_Atlas.png::CompressedTexture2D/CompressedTexture2D::1227699128232119602::1758873195::1758893389::1::::<><><>0<>0<>83f72028c9fc2d063934aaa781953c23<>res://.godot/imported/Pallet Broken_Zombie_Atlas.png-084f0b4d599ee81917e353d1dd1b5e49.s3tc.ctex::
+Pallet.glb::PackedScene/PackedScene::2757074417422014285::1758871242::1758893389::1::::<><><>0<>0<>019dcf7b10d4a8c78283f940b6ed96d0<>res://.godot/imported/Pallet.glb-1d8357900db07487837bd61ba6b29d5a.scn::uid://b46c1jnillf3o::::res://Models_new/Pallet_Zombie_Atlas.png
+Pallet_Zombie_Atlas.png::CompressedTexture2D/CompressedTexture2D::4486061217370184354::1758871242::1758893389::1::::<><><>0<>0<>4adf1e086995af07206ed19f04893498<>res://.godot/imported/Pallet_Zombie_Atlas.png-840d95e6d9593cf99caa038037d1ccff.s3tc.ctex::
+Shipping Container (1).glb::PackedScene::2077404944384380865::1758958069::1758958149::1::::<><><>0<>0<>ca5fdd595f15131a29811181646a24be<>res://.godot/imported/Shipping Container (1).glb-2b7ba0122d71e537d4f0f403dbb9c50f.scn::
+Shipping Container Structure.glb::PackedScene::2757933051968566903::1758958083::1758958096::1::::<><><>0<>0<>00e9f8d445c5205b92fe43f303369feb<>res://.godot/imported/Shipping Container Structure.glb-889d8acf04bcfe48ad65c9dac87ebb2f.scn::
+Shipping Container.glb::PackedScene/PackedScene::474741955639699520::1758871245::1758893390::1::::<><><>0<>0<>9da9eb8fdf2b8b9409f8108e13eba4bd<>res://.godot/imported/Shipping Container.glb-079a19c5ddfc1395674af954192ec7c9.scn::
+::res://objects/::1758967614
+brick.gd::GDScript/GDScript::4219990195837474690::1758791815::0::1::::<>StaticBody3D<><>0<>0<><>::
+brick.tscn::PackedScene/PackedScene::2378837487080213344::1758791815::0::1::::<><><>0<>0<><>::uid://cs417o1y08xb1::::res://models/brick.glb<>uid://b1egvfagp7vs1::::res://objects/brick.gd<>uid://booc27br2ap2l::::res://models/colormap.tres<>uid://bkyb0o2ipxxya::::res://meshes/brick.res
+character.tscn::PackedScene/PackedScene::6537518251527464230::1758791815::0::1::::<><><>0<>0<><>::uid://xy8rvnjp22n5::::res://models/character.glb
+cloud.gd::GDScript/GDScript::7947745115092097490::1758791815::0::1::::<>Node3D<><>0<>0<><>::
+cloud.tscn::PackedScene/PackedScene::8897040102558598202::1758791815::0::1::::<><><>0<>0<><>::uid://bsrmqj84lksd7::::res://models/cloud.glb<>uid://dlh7g3g207i7c::::res://objects/cloud.gd
+coin.gd::GDScript::1767422113248890708::1758967589::0::1::::<>Area3D<><>0<>0<><>::
+coin.tscn::PackedScene::7541690255363322632::1758967614::0::1::::<><><>0<>0<><>::uid://0odt7cvj574e::::res://models/Textures/colormap.png<>uid://0gfgixhikw1y::::res://objects/coin.gd<>uid://bs6puxrivhkk2::::res://sprites/particle.png
+platform.tscn::PackedScene::5735575376420720028::1758967613::0::1::::<><><>0<>0<><>::uid://do8sg1k5xvj2h::::res://models/platform.glb
+platform_falling.gd::GDScript/GDScript::6648196842642290121::1758791815::0::1::::<>Node3D<><>0<>0<><>::
+platform_falling.tscn::PackedScene::7131330035236120468::1758967613::0::1::::<><><>0<>0<><>::uid://biyd6x403gvny::::res://models/platform-falling.glb<>uid://c1yo3ijh0gjjt::::res://objects/platform_falling.gd
+platform_grass_large_round.tscn::PackedScene/PackedScene::1437891290224671664::1758791815::0::1::::<><><>0<>0<><>::uid://fqfc0dtl2xlc::::res://models/platform-grass-large-round.glb<>uid://dkw27llxh1d4w::::res://models/grass-small.glb<>uid://blqf5cwsk25xj::::res://models/grass.glb
+platform_medium.tscn::PackedScene/PackedScene::1212266976884660077::1758791815::0::1::::<><><>0<>0<><>::uid://c5vgh1v6juur0::::res://models/platform-medium.glb
+player.tscn::PackedScene/PackedScene::7987327288742507313::1758869291::0::1::::<><><>0<>0<><>::uid://br1k30d32naot::::res://scripts/player.gd<>uid://c0e27836xgmhi::::res://objects/character.tscn<>uid://8ggihh27mlrr::::res://sprites/blob_shadow.png<>uid://deu06eho4c74::::res://meshes/dust.res<>uid://cydjn1ct3hps2::::res://sounds/walking.ogg
+::res://opject_new/::1758967614
+area_3d.gd::GDScript::8431991441797976184::1758960916::0::1::::<>Area3D<><>0<>0<><>::
+banana.gd::GDScript/GDScript::315933744163325718::1758870783::0::1::::<>CharacterBody3D<><>0<>0<><>::
+banana.tscn::PackedScene::2986620976156000790::1758967613::0::1::::<><><>0<>0<><>::uid://erbnakaw5xsg::::res://opject_new/banana.gd<>uid://c5qnrxoiip1rr::::res://animation/Running_0.png<>uid://dwka0podvhgpc::::res://animation/Locomotion-Library.res<>uid://8ggihh27mlrr::::res://sprites/blob_shadow.png<>uid://deu06eho4c74::::res://meshes/dust.res<>uid://cydjn1ct3hps2::::res://sounds/walking.ogg
+barrel.tscn::PackedScene/PackedScene::2136072106151003276::1758870784::0::1::::<><><>0<>0<><>::uid://ukhgcs6ukffh::::res://Models_new/Barrel.fbx
+box1.tscn::PackedScene/PackedScene::2220736006669417341::1758871613::0::1::::<><><>0<>0<><>::uid://dkhnqk3piiwwy::::res://Models_new/Cardboard Boxes.glb
+box_2.tscn::PackedScene::5871926064448132835::1758957662::0::1::::<><><>0<>0<><>::uid://b481juqhdwwca::::res://Models_new/Crate.glb
+fence_2.tscn::PackedScene::1068723244556963299::1758957662::0::1::::<><><>0<>0<><>::uid://ho63sn0v82b7::::res://Models_new/Fence (1).glb
+flag.gd::GDScript::5984228274563934964::1758962789::0::1::::<>Node3D<><>0<>0<><>::
+flag.tscn::PackedScene::6990147254463299833::1758967614::0::1::::<><><>0<>0<><>::uid://dtjvjdjl8cs6e::::res://models/flag.glb<>uid://cri2momyjdavc::::res://opject_new/flag.gd
+pallet.tscn::PackedScene::8001100386525304121::1758957662::0::1::::<><><>0<>0<><>::uid://bfjsu3pd6shpt::::res://Models_new/Pallet.glb
+pallet_broken.gd::GDScript/GDScript::201706577275488580::1758873344::0::1::::<>Node3D<><>0<>0<><>::
+pallet_broken.tscn::PackedScene::2685381871425875320::1758957662::0::1::::<><><>0<>0<><>::uid://bj3bi3etqbw8s::::res://Models_new/Pallet Broken.glb<>uid://c4ycwaeqq1gq::::res://opject_new/pallet_broken.gd
+Door.tscn::PackedScene::8588512838710933697::1758967613::0::1::::<><><>0<>0<><>::uid://6033bkhyproi::::res://Models_new/Door.glb
+box_crate.tscn::PackedScene::8214561183674903765::1758967613::0::1::::<><><>0<>0<><>::uid://cxl0hnq152815::::res://Models_new/Crate 1.glb
+box_small.tscn::PackedScene::4858937894948052744::1758967614::0::1::::<><><>0<>0<><>::uid://gk4qsfw4yauj::::res://Models_new/Container Small.glb
+shipping_container_som.tscn::PackedScene::394277502934000704::1758967613::0::1::::<><><>0<>0<><>::uid://4uks5v6yikfp::::res://Models_new/Shipping Container (1).glb
+shipping_container.tscn::PackedScene::714254742615508145::1758958138::0::1::::<><><>0<>0<><>::uid://bfj70wd81j3nf::::res://Models_new/Shipping Container Structure.glb
+shipping.tscn::PackedScene::143730620568826452::1758957662::0::1::::<><><>0<>0<><>::uid://g076v3hndo7a::::res://Models_new/Shipping Container.glb
+tree.tscn::PackedScene::5368021267118798478::1758957662::0::1::::<><><>0<>0<><>::uid://dkbtvndsabrvs::::res://Models_new/Dead tree.glb
+::res://scenes/::1758967613
+main-environment.tres::Environment::3537261559353613528::1758957661::0::1::::<><><>0<>0<><>::uid://cot2f5lx8iai5::::res://sprites/enhanced-image-8x.png
+main.tscn::PackedScene::3542880227594992439::1758967613::0::1::::<><><>0<>0<><>::uid://bqnqgflivjvue::::res://scenes/main-environment.tres<>uid://djpme521r3cxe::::res://scripts/main.gd<>uid://bis0hgcd7hm7o::::res://opject_new/banana.tscn<>uid://bcg2kkbsnttec::::res://scripts/view.gd<>uid://5oy2buq8v70c::::res://opject_new/barrel.tscn<>uid://dl817pjmvagl2::::res://opject_new/pallet.tscn<>uid://ukhgcs6ukffh::::res://Models_new/Barrel.fbx<>uid://dfpisimsgf5ce::::res://objects/coin.tscn<>uid://bap462su1xjtx::::res://scripts/hud.gd<>uid://dy017k58p20sk::::res://objects/cloud.tscn<>uid://cd7oyc56ehkx1::::res://sprites/coin.png<>uid://dumls0yj7uqq8::::res://opject_new/Door.tscn<>uid://6v0gynsi48ar::::res://opject_new/box1.tscn<>uid://bei232h00ticm::::res://opject_new/pallet_broken.tscn<>uid://fu8xs7rlj7x1::::res://opject_new/shipping_container_som.tscn<>uid://d0cxd77jybrcn::::res://fonts/lilita_one_regular.ttf<>uid://dpbgvfwa46358::::res://opject_new/box_crate.tscn<>uid://cbvhtaef5ooa::::res://opject_new/shipping.tscn<>uid://cbhx852epw46w::::res://opject_new/box_small.tscn<>uid://phxyllxtppvv::::res://opject_new/fence_2.tscn<>uid://c6ucx63k4bxw0::::res://opject_new/flag.tscn<>uid://kf8w28c3kdav::::res://opject_new/shipping_container.tscn<>uid://ciqkr5btxannq::::res://opject_new/tree.tscn<>uid://b3w3ah03k8unp::::res://scenes/WinPopup.gd
+WinPopup.gd::GDScript::4398825099515221121::1758965830::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/::1758967581
+audio.gd::GDScript/GDScript::2300006706786553366::1758791815::0::1::::<>Node<><>0<>0<><>::
+hud.gd::GDScript::2419203949286578585::1758893822::0::1::::<>Control<><>0<>0<><>::
+main.gd::GDScript::7822664675836674314::1758967581::0::1::::<>Node3D<><>0<>0<><>::
+player.gd::GDScript/GDScript::3633963338329158727::1758864421::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Game.gd::GDScript::830931054577530955::1758967494::0::1::::<>Node<><>0<>0<><>::
+CoinCounter.gd::GDScript::752084796224306689::1758967519::0::1::::<>Node<><>0<>0<><>::
+view.gd::GDScript::2540842381851552702::1758967402::0::1::::<>Node3D<><>0<>0<><>::
+::res://sounds/::1758791891
+break.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::4015333864764615682::1758791815::1758791891::1::::<><><>0<>0<>939b76cd1396326e29d7d01709f015b4<>res://.godot/imported/break.ogg-0db4eca34fbeda37557f9cf33f003501.oggvorbisstr::
+coin.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::4084388866816624088::1758791815::1758791891::1::::<><><>0<>0<>9b06745ffe6b2a2c8eeb05985b0df01e<>res://.godot/imported/coin.ogg-03bf8cca0d4317de64b04e344cce1fba.oggvorbisstr::
+fall.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::5505338992082824726::1758791815::1758791891::1::::<><><>0<>0<>7cb058ee1683a9218cda07f0ad240667<>res://.godot/imported/fall.ogg-ed1ea1270f869ae1edfb2ff9fa634b4b.oggvorbisstr::
+jump.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::8759937286678337788::1758791815::1758791891::1::::<><><>0<>0<>b79cef559fb8dbe696bfe2c706507d29<>res://.godot/imported/jump.ogg-de8df8640ff526968292c23fe5ec784f.oggvorbisstr::
+land.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::1642591283693712969::1758791815::1758791891::1::::<><><>0<>0<>82e0a1af9d2c79a64986a3137addd3a7<>res://.godot/imported/land.ogg-7222ba872273a4a7535937ef5cfdffd0.oggvorbisstr::
+walking.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::6464137785814516627::1758791815::1758791891::1::::<><><>0<>0<>4e184f0907e0258b2a104fb1a704c57e<>res://.godot/imported/walking.ogg-bf61e9916135189ff0d5c06a148b02ab.oggvorbisstr::
+::res://sprites/::1758898950
+blob_shadow.png::CompressedTexture2D/CompressedTexture2D::2328997074634351359::1758791815::1758791891::1::::<><><>0<>0<>d670c20b28fb5520f53eecac4ddd2ba8<>res://.godot/imported/blob_shadow.png-d19f4ffceb1d99dd3331acec2dc6d7df.ctex::
+coin.png::CompressedTexture2D/CompressedTexture2D::5050361036187623848::1758791815::1758791891::1::::<><><>0<>0<>0eaf10613aae5d7e0140f33fca439559<>res://.godot/imported/coin.png-54d5e156d7891d9603a51f76f85b4fd9.ctex::
+enhanced-image-8x.png::CompressedTexture2D/CompressedTexture2D::5796358237202791710::1758898944::1758898950::1::::<><><>0<>0<>3f1148e609c30fd962501550d98a1183<>res://.godot/imported/enhanced-image-8x.png-e22d31cb9cc613edf9ab5df2bdcfd4b3.s3tc.ctex::
+particle.png::CompressedTexture2D/CompressedTexture2D::3714763285013693791::1758791815::1758791891::1::::<><><>0<>0<>6da5cb9e6606857a64ab690305e32955<>res://.godot/imported/particle.png-9c8c1748211b697ea72e6a5d18d7f578.ctex::
+skybox.png::CompressedTexture2D/CompressedTexture2D::4910189128208343731::1758791815::1758791895::1::::<><><>0<>0<>f69f595f8d5f4ba6abd1fae36f4760ba<>res://.godot/imported/skybox.png-3a75a15c5dbffccdaa926738885bd0eb.bptc.ctex::
