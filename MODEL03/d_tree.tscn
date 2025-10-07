@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj05p46fc4pi2"]
+
+[ext_resource type="PackedScene" uid="uid://dfvvcn16418wb" path="res://MODEL-HALLOWEEN/Dead Tree (2).glb" id="1_ftfw5"]
+
+[node name="d_tree" instance=ExtResource("1_ftfw5")]

@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://64p213ufdph"]
+
+[ext_resource type="PackedScene" uid="uid://cqm5drjcepggt" path="res://MODEL-HALLOWEEN/Cobweb.glb" id="1_v412h"]
+
+[node name="cobweb" instance=ExtResource("1_v412h")]

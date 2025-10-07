@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3mvrs20xgfcg"]
+
+[ext_resource type="PackedScene" uid="uid://bpjkgg8c0fsmp" path="res://MODEL-HALLOWEEN/Coffin (1).glb" id="1_tgso3"]
+
+[node name="Coffin (1)" instance=ExtResource("1_tgso3")]

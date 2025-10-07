@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://8tj6we8r44go"]
+
+[ext_resource type="PackedScene" uid="uid://cnqg7sils4onc" path="res://MODEL-HALLOWEEN/Simple Candelabra.glb" id="1_0f6qj"]
+
+[node name="Simple Candelabra" instance=ExtResource("1_0f6qj")]

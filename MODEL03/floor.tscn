@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhle0vc4fh1ta"]
+
+[ext_resource type="PackedScene" uid="uid://5wiju2gxnjib" path="res://MODEL-HALLOWEEN/Floor Tile.glb" id="1_vkv5u"]
+
+[node name="Floor" instance=ExtResource("1_vkv5u")]
