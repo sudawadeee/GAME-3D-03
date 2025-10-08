@@ -566,6 +566,21 @@ bind/21/name = &"RightToes"
 bind/21/bone = -1
 bind/21/pose = Transform3D(-100, -1.62125e-05, 3.8147e-06, -2.86102e-06, 100, 1.71661e-05, -3.8147e-06, 1.71661e-05, -100, 0.139891, -0.584391, -1.71584)
 
+[sub_resource type="Animation" id="Animation_dd2mi"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0.552037, 0)]
+}
+
 [sub_resource type="Animation" id="Animation_orfvm"]
 resource_name = "mixamo_com"
 length = 0.7
@@ -730,21 +745,6 @@ tracks/21/keys = {
 "values": [Vector3(0, 0.458971, -0.0214003)]
 }
 
-[sub_resource type="Animation" id="Animation_dd2mi"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(0, 0.552037, 0)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_bjwgr"]
 _data = {
 &"RESET": SubResource("Animation_dd2mi"),
@@ -820,7 +820,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_4u3ud")
 
-[node name="Banana" type="CharacterBody3D"]
+[node name="Banana" type="CharacterBody3D" groups=["player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0577789, 0)
 script = ExtResource("1_iayh2")
 

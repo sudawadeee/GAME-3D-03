@@ -37,6 +37,7 @@ var coins = 0
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	respawn_position = global_transform.origin
 
 func _physics_process(delta):
 	# Handle functions
@@ -55,7 +56,8 @@ func _physics_process(delta):
 
 	# Falling/respawning
 	if position.y < -10:
-		get_tree().reload_current_scene()
+		die()
+
 
 	# Animation for scale (jumping and landing)
 	model.scale = model.scale.lerp(Vector3(1, 1, 1), delta * 10)
@@ -162,3 +164,20 @@ func jump():
 func collect_coin():
 	coins += 1
 	coin_collected.emit(coins)
+
+# ==============================
+# Checkpoint System
+# ==============================
+
+var respawn_position: Vector3
+
+
+func set_checkpoint(pos: Vector3):
+	respawn_position = pos
+	print("✅ Checkpoint updated:", pos)
+
+func die():
+	print("💀 Player died — respawning at checkpoint...")
+	global_transform.origin = respawn_position
+	velocity = Vector3.ZERO
+	gravity = 0.0

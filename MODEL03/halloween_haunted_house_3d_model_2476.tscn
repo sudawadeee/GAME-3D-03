@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://1kdqnejey2yh"]
+
+[ext_resource type="PackedScene" uid="uid://bint0rhrmdaio" path="res://MODEL-HALLOWEEN/halloween-haunted-house-3d-model-2476.glb" id="1_xacal"]
+
+[node name="halloween-haunted-house-3d-model-2476" instance=ExtResource("1_xacal")]

@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbvgt5ionf0tm"]
+
+[ext_resource type="PackedScene" uid="uid://b712lr35so4gc" path="res://MODEL-HALLOWEEN/Tree Dead Large Deco.glb" id="1_1aqt3"]
+
+[node name="Root Scene" instance=ExtResource("1_1aqt3")]

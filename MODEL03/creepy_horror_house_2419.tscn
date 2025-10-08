@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bp402nacwwihq"]
+
+[ext_resource type="PackedScene" uid="uid://6s1q61jves02" path="res://MODEL-HALLOWEEN/creepy-horror-house-2419.glb" id="1_6m6vv"]
+
+[node name="creepy-horror-house-2419" instance=ExtResource("1_6m6vv")]

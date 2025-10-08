@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://db52fy34krdj5"]
+
+[ext_resource type="PackedScene" uid="uid://bq1h411gepox0" path="res://MODEL-HALLOWEEN/cute-grim-reaper-cat-3d-model-2477.glb" id="1_0j22a"]
+
+[node name="cute-grim-reaper-cat-3d-model-2477" instance=ExtResource("1_0j22a")]
