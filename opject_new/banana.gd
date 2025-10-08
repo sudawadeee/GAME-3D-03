@@ -181,3 +181,14 @@ func die():
 	global_transform.origin = respawn_position
 	velocity = Vector3.ZERO
 	gravity = 0.0
+
+
+func _on_enemy_detector_body_entered(body: Node3D) -> void:
+	if body.is_in_group("enemy"):
+		die()
+		
+func _on_enemy_stomped(enemy):
+	print("Enemy stomped:", enemy)
+	gravity = -jump_strength * 1.2
+	jump_single = false
+	jump_double = false

@@ -1,8 +1,9 @@
-[gd_scene load_steps=37 format=3 uid="uid://bqqgyqafm7xwp"]
+[gd_scene load_steps=38 format=3 uid="uid://bqqgyqafm7xwp"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_ahusb"]
 [ext_resource type="Script" uid="uid://djpme521r3cxe" path="res://scripts/main.gd" id="1_jkv2x"]
 [ext_resource type="PackedScene" uid="uid://bis0hgcd7hm7o" path="res://opject_new/banana.tscn" id="3_muem4"]
+[ext_resource type="PackedScene" uid="uid://cx3olgl4rhjm0" path="res://MODEL03/enemy_ghost.tscn" id="4_kmb1v"]
 [ext_resource type="Script" uid="uid://bcg2kkbsnttec" path="res://scripts/view.gd" id="5_bg0fr"]
 [ext_resource type="PackedScene" uid="uid://dl817pjmvagl2" path="res://opject_new/pallet.tscn" id="6_0ld40"]
 [ext_resource type="PackedScene" uid="uid://dfpisimsgf5ce" path="res://objects/coin.tscn" id="10_fwhys"]
@@ -50,6 +51,23 @@ environment = ExtResource("1_ahusb")
 
 [node name="Banana" parent="." groups=["Player"] instance=ExtResource("3_muem4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.3323, 8.45073, 18.8408)
+
+[node name="Ghost" type="Node3D" parent="."]
+
+[node name="Enemy_Ghost" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3512, 5.56924, -0.31596)
+
+[node name="Enemy_Ghost2" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.333149, 0, 0.942874, 0, 1, 0, -0.942874, 0, -0.333149, -75.9777, 20.2249, 7.10328)
+
+[node name="Enemy_Ghost3" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.612893, 0, -0.790166, 0, 1, 0, 0.790166, 0, -0.612893, -69.3253, 20.2249, 6.67451)
+
+[node name="Enemy_Ghost4" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.682713, 0, 0.730687, 0, 1, 0, -0.730687, 0, -0.682713, -79.7716, 20.2249, 7.74723)
+
+[node name="Enemy_Ghost5" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(0.54911, 0, 0.83575, 0, 1, 0, -0.83575, 0, 0.54911, -21.0863, 5.25337, 12.2758)
 
 [node name="View" type="Node3D" parent="." node_paths=PackedStringArray("target") groups=["Player"]]
 transform = Transform3D(0.707107, -0.298836, 0.640856, 0, 0.906308, 0.422618, -0.707107, -0.298836, 0.640856, 0, 0, 0)

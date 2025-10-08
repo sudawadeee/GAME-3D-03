@@ -162,3 +162,10 @@ func jump():
 func collect_coin():
 	coins += 1
 	coin_collected.emit(coins)
+	
+# stomp enemy
+func _on_enemy_stomped(enemy: Node):
+	gravity = -jump_strength * 0.7
+	model.scale = Vector3(0.5, 1.5, 0.5)
+	if enemy.has_method("CharacterArmature|Death"):
+		enemy.die()
