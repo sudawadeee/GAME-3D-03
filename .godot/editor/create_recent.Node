@@ -1,3 +1,10 @@
+Control
+Label
+Timer
+Button
+VBoxContainer
+Sprite3D
+DirectionalLight3D
 Node3D
 CollisionShape3D
 Area3D
@@ -5,10 +12,3 @@ VisibleOnScreenNotifier3D
 CharacterBody3D
 AudioStreamPlayer3D
 Label3D
-Label
-MeshInstance3D
-Button
-Panel
-Control
-CanvasLayer
-AnimationPlayer

@@ -34,7 +34,7 @@ func _on_stomp_area_body_entered(body: Node3D) -> void:
 		print("Player Velocity Y:", player_node.velocity.y)
 		print("Relative Y:", relative_y)
 		
-		if relative_y > 0.3 and player_node.velocity.y > 0.05:
+		if relative_y > 0.3 and player_node.velocity.y < -0.05:
 			print("STOMP SUCCESS!")
 			$StompArea.set_deferred("monitoring", false) 
 			die()

@@ -7,7 +7,7 @@ func _physics_process(delta):
 	scale = scale.lerp(Vector3(1, 1, 1), delta * 10) # Animate scale
 	
 	if falling:
-		fall_velocity += 50.0 * delta
+		fall_velocity += 1000.0 * delta
 		position.y -= fall_velocity * delta
 	else:
 		fall_velocity = 0.0

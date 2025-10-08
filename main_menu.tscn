@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://dj362ff15mcfq"]
+
+[ext_resource type="Script" uid="uid://bwduc7im4kic" path="res://scenes/main_menu.gd" id="1_7vrkn"]
+[ext_resource type="FontFile" uid="uid://4miclt4i2532" path="res://Allura-Regular.ttf" id="2_fu7sn"]
+[ext_resource type="Texture2D" uid="uid://d2psx45p5m282" path="res://scenes/cute-halloween-town-anime-hkh0diq2i0gykpz3.jpg" id="2_jix8l"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_7vrkn")
+
+[node name="Cute-halloween-town-anime-hkh0Diq2i0Gykpz3" type="Sprite2D" parent="."]
+position = Vector2(620, 352)
+scale = Vector2(0.71, 0.71)
+texture = ExtResource("2_jix8l")
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = 596.0
+offset_top = 371.0
+offset_right = 713.0
+offset_bottom = 454.0
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_font_sizes/font_size = 60
+text = "Start"
+
+[node name="QuitBuitton" type="Button" parent="."]
+layout_mode = 2
+offset_left = 600.0
+offset_top = 486.0
+offset_right = 702.0
+offset_bottom = 569.0
+theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_font_sizes/font_size = 60
+text = "Quit"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="QuitBuitton" to="." method="_on_quit_buitton_pressed"]

@@ -10,3 +10,11 @@ res://opject_new/flag.tscn
 res://MODEL03/enemy_ghost.tscn
 res://opject_new/banana.tscn
 res://enemy_ghost.gd
+res://objects/coin.gd
+res://opject_new/pallet_broken.tscn
+res://opject_new/pallet_broken.gd
+res://scripts/main.gd
+res://scenes/main_menu.gd
+res://main_menu.tscn
+res://scenes/WinPopup.gd
+res://scenes/game_over_ui.gd

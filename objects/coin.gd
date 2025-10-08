@@ -20,7 +20,7 @@ func _on_body_entered(body: Node) -> void:
 		Game.add_coin()
 
 		Audio.play("res://sounds/coin.ogg")
-		$Mesh.queue_free()
+		$"Peppermint_candy".queue_free()
 		$Particles.emitting = false
 
 		# ปิดการชนแบบ deferred (แก้ error Function blocked during in/out signal)

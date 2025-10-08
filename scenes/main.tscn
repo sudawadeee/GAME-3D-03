@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=3 uid="uid://bqqgyqafm7xwp"]
+[gd_scene load_steps=40 format=3 uid="uid://bqqgyqafm7xwp"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_ahusb"]
 [ext_resource type="Script" uid="uid://djpme521r3cxe" path="res://scripts/main.gd" id="1_jkv2x"]
@@ -9,12 +9,13 @@
 [ext_resource type="PackedScene" uid="uid://dfpisimsgf5ce" path="res://objects/coin.tscn" id="10_fwhys"]
 [ext_resource type="Script" uid="uid://bap462su1xjtx" path="res://scripts/hud.gd" id="11_apvpm"]
 [ext_resource type="PackedScene" uid="uid://dy017k58p20sk" path="res://objects/cloud.tscn" id="13_drtpy"]
-[ext_resource type="Texture2D" uid="uid://cd7oyc56ehkx1" path="res://sprites/coin.png" id="13_jfda3"]
 [ext_resource type="PackedScene" uid="uid://cil8wxd3q37s" path="res://MODEL03/spider.tscn" id="14_dp3eg"]
 [ext_resource type="PackedScene" uid="uid://ccqt3dosdpu5v" path="res://MODEL03/ghoooooost.tscn" id="15_0ld40"]
+[ext_resource type="Texture2D" uid="uid://d0o5pixrf3dow" path="res://Peppermint_candy_peppermintCandyTxt-removebg-preview.png" id="15_kmb1v"]
 [ext_resource type="PackedScene" uid="uid://6v0gynsi48ar" path="res://opject_new/box1.tscn" id="16_yc10j"]
 [ext_resource type="PackedScene" uid="uid://bei232h00ticm" path="res://opject_new/pallet_broken.tscn" id="17_gqmmt"]
 [ext_resource type="FontFile" uid="uid://d0cxd77jybrcn" path="res://fonts/lilita_one_regular.ttf" id="17_tk810"]
+[ext_resource type="Script" uid="uid://ceoq0c4fbexua" path="res://scenes/game_over_ui.gd" id="18_fuf3a"]
 [ext_resource type="PackedScene" uid="uid://bhle0vc4fh1ta" path="res://MODEL03/floor.tscn" id="18_yc10j"]
 [ext_resource type="PackedScene" uid="uid://cj05p46fc4pi2" path="res://MODEL03/d_tree.tscn" id="19_jscy8"]
 [ext_resource type="PackedScene" uid="uid://kf8w28c3kdav" path="res://opject_new/shipping_container.tscn" id="20_pm3ni"]
@@ -36,6 +37,7 @@
 [ext_resource type="PackedScene" uid="uid://br66uhieswkg2" path="res://MODEL03/checkpoint.tscn" id="33_5q0nq"]
 [ext_resource type="PackedScene" uid="uid://c6ucx63k4bxw0" path="res://opject_new/flag.tscn" id="34_dgi5k"]
 [ext_resource type="PackedScene" uid="uid://c4xl7a8rojwsq" path="res://MODEL-HALLOWEEN/wooden_sign_-_baked_low_poly.glb" id="34_j8jky"]
+[ext_resource type="FontFile" uid="uid://4miclt4i2532" path="res://Allura-Regular.ttf" id="38_c6pm6"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_38ys3"]
 font = ExtResource("17_tk810")
@@ -50,7 +52,7 @@ script = ExtResource("1_jkv2x")
 environment = ExtResource("1_ahusb")
 
 [node name="Banana" parent="." groups=["Player"] instance=ExtResource("3_muem4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.3323, 8.45073, 18.8408)
+transform = Transform3D(0.999888, -0.0118331, -0.00910985, 0.0118326, 0.99993, -0.000107805, 0.00911049, 0, 0.999959, 0.571272, 0.616473, 1.14148)
 
 [node name="Ghost" type="Node3D" parent="."]
 
@@ -402,10 +404,10 @@ script = ExtResource("11_apvpm")
 layout_mode = 0
 offset_left = 57.0
 offset_top = 67.0
-offset_right = 313.0
-offset_bottom = 323.0
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("13_jfda3")
+offset_right = 2105.0
+offset_bottom = 2115.0
+scale = Vector2(0.0277707, 0.026457)
+texture = ExtResource("15_kmb1v")
 
 [node name="x" type="Label" parent="HUD"]
 layout_mode = 0
@@ -443,6 +445,15 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 30
 text = "663380299-0 Sudawadee Rawisit"
 
+[node name="TimeLabel" type="Label" parent="HUD"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 642.0
+offset_right = 891.0
+offset_bottom = 50.0
+theme_override_fonts/font = ExtResource("38_c6pm6")
+theme_override_font_sizes/font_size = 40
+
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="WinPopup" type="Control" parent="CanvasLayer"]
@@ -464,10 +475,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -111.0
-offset_top = -297.0
-offset_right = 98.0
-offset_bottom = -198.0
+offset_left = -99.0
+offset_top = -126.0
+offset_right = 110.0
+offset_bottom = -27.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 50
@@ -522,6 +533,65 @@ theme_override_font_sizes/font_size = 45
 text = "Restart"
 
 [node name="QuitButton" type="Button" parent="CanvasLayer/WinPopup/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.0
+offset_top = 131.0
+offset_right = 59.0
+offset_bottom = 202.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 45
+text = "Quit"
+
+[node name="GameOverUI" type="Control" parent="CanvasLayer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("18_fuf3a")
+
+[node name="VBoxContainer" type="Panel" parent="CanvasLayer/GameOverUI"]
+layout_mode = 0
+offset_right = 1284.0
+offset_bottom = 724.0
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer/GameOverUI/VBoxContainer"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -99.0
+offset_top = -126.0
+offset_right = 110.0
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "Game Over"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Retry" type="Button" parent="CanvasLayer/GameOverUI/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 563.0
+offset_top = 370.0
+offset_right = 728.0
+offset_bottom = 441.0
+theme_override_font_sizes/font_size = 45
+text = "Restart"
+
+[node name="Quit" type="Button" parent="CanvasLayer/GameOverUI/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -1239,6 +1309,11 @@ font_size = 50
 [node name="Main_890" type="Node3D" parent="."]
 
 [node name="flag" parent="." instance=ExtResource("34_dgi5k")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.2351, 5.85912, 9.09943)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56173, 0.655697, 1.13038)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
 
 [connection signal="coin_collected" from="Banana" to="HUD" method="_on_coin_collected"]
