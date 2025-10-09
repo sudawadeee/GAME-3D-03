@@ -5,6 +5,8 @@ extends Node3D
 @onready var sound_win2: AudioStreamPlayer3D = $SoundWin2
 
 func _ready() -> void:
+	sound_win1.process_mode = Node.PROCESS_MODE_WHEN_PAUSED
+	sound_win2.process_mode = Node.PROCESS_MODE_WHEN_PAUSED
 	area.body_entered.connect(_on_area_body_entered)
 
 func _on_area_body_entered(body: Node) -> void:

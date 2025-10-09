@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://bqqgyqafm7xwp"]
+[gd_scene load_steps=41 format=3 uid="uid://bqqgyqafm7xwp"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_ahusb"]
 [ext_resource type="Script" uid="uid://djpme521r3cxe" path="res://scripts/main.gd" id="1_jkv2x"]
@@ -38,6 +38,7 @@
 [ext_resource type="PackedScene" uid="uid://c6ucx63k4bxw0" path="res://opject_new/flag.tscn" id="34_dgi5k"]
 [ext_resource type="PackedScene" uid="uid://c4xl7a8rojwsq" path="res://MODEL-HALLOWEEN/wooden_sign_-_baked_low_poly.glb" id="34_j8jky"]
 [ext_resource type="FontFile" uid="uid://4miclt4i2532" path="res://Allura-Regular.ttf" id="38_c6pm6"]
+[ext_resource type="AudioStream" uid="uid://cqicl7bba7pns" path="res://sounds/halloween-spooky-music-413648.mp3" id="39_c6pm6"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_38ys3"]
 font = ExtResource("17_tk810")
@@ -52,18 +53,53 @@ script = ExtResource("1_jkv2x")
 environment = ExtResource("1_ahusb")
 
 [node name="Banana" parent="." groups=["Player"] instance=ExtResource("3_muem4")]
-transform = Transform3D(0.999888, -0.0118331, -0.00910985, 0.0118326, 0.99993, -0.000107805, 0.00911049, 0, 0.999959, 0.571272, 0.616473, 1.14148)
+transform = Transform3D(0.999888, -0.0118331, -0.00910985, 0.0118326, 0.99993, -0.000107805, 0.00911049, 0, 0.999959, 0.505208, 0.465214, 0.659113)
+
+[node name="BGM" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("39_c6pm6")
+volume_db = -10.666
+autoplay = true
 
 [node name="Ghost" type="Node3D" parent="."]
 
 [node name="Enemy_Ghost" parent="Ghost" instance=ExtResource("4_kmb1v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3512, 5.56924, -0.31596)
 
+[node name="Enemy_Ghost8" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3512, 9.07869, -8.71581)
+
+[node name="Enemy_Ghost9" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(0.988391, -0.151934, 0, 0.151934, 0.988391, 0, 0, 0, 1, -21.9795, 8.80322, -9.50663)
+
+[node name="Enemy_Ghost6" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.1288, 5.56924, 6.65411)
+
+[node name="Enemy_Ghost7" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.999972, 0, 0.00745257, 0, 1, 0, -0.00745257, 0, -0.999972, -0.360046, 3.59568, 16.8804)
+
 [node name="Enemy_Ghost2" parent="Ghost" instance=ExtResource("4_kmb1v")]
 transform = Transform3D(-0.333149, 0, 0.942874, 0, 1, 0, -0.942874, 0, -0.333149, -75.9777, 20.2249, 7.10328)
 
 [node name="Enemy_Ghost3" parent="Ghost" instance=ExtResource("4_kmb1v")]
 transform = Transform3D(-0.612893, 0, -0.790166, 0, 1, 0, 0.790166, 0, -0.612893, -69.3253, 20.2249, 6.67451)
+
+[node name="Enemy_Ghost10" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.900227, 0, -0.43542, 0, 1, 0, 0.43542, 0, -0.900227, -69.3253, 19.7712, 1.39889)
+
+[node name="Enemy_Ghost11" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.999936, 0, -0.011275, 0, 1, 0, 0.011275, 0, -0.999936, -70.543, 19.6616, 1.39889)
+
+[node name="Enemy_Ghost12" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.999936, 0, -0.011275, 0, 1, 0, 0.011275, 0, -0.999936, -71.8296, 19.5887, 1.39889)
+
+[node name="Enemy_Ghost13" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.999936, 0, -0.011275, 0, 1, 0, 0.011275, 0, -0.999936, -72.7506, 19.6366, 1.39889)
+
+[node name="Enemy_Ghost14" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(-0.868856, 0, 0.495064, 0, 1, 0, -0.495064, 0, -0.868856, -71.1467, 19.7482, 0.325765)
+
+[node name="Enemy_Ghost15" parent="Ghost" instance=ExtResource("4_kmb1v")]
+transform = Transform3D(0.153744, 0, 0.988111, 0, 1, 0, -0.988111, 0, 0.153744, -62.9468, 17.4574, -5.15587)
 
 [node name="Enemy_Ghost4" parent="Ghost" instance=ExtResource("4_kmb1v")]
 transform = Transform3D(-0.682713, 0, 0.730687, 0, 1, 0, -0.730687, 0, -0.682713, -79.7716, 20.2249, 7.74723)
@@ -429,22 +465,6 @@ text = "0"
 label_settings = SubResource("LabelSettings_38ys3")
 metadata/_edit_use_anchors_ = true
 
-[node name="name" type="Label" parent="HUD"]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -510.0
-offset_top = -57.0
-offset_right = -42.0
-offset_bottom = -15.0
-grow_horizontal = 0
-grow_vertical = 0
-theme_override_font_sizes/font_size = 30
-text = "663380299-0 Sudawadee Rawisit"
-
 [node name="TimeLabel" type="Label" parent="HUD"]
 unique_name_in_owner = true
 layout_mode = 0
@@ -453,6 +473,104 @@ offset_right = 891.0
 offset_bottom = 50.0
 theme_override_fonts/font = ExtResource("38_c6pm6")
 theme_override_font_sizes/font_size = 40
+
+[node name="MessageLabel" type="Label" parent="HUD"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = -124.0
+offset_right = 374.0
+offset_bottom = -25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "Find the flag to win..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Control" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -640.0
+offset_right = 640.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+script = ExtResource("11_apvpm")
+
+[node name="SettingsButton" type="Button" parent="Control"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 571.0
+offset_top = 407.0
+offset_right = 736.0
+offset_bottom = 478.0
+theme_override_font_sizes/font_size = 45
+text = "Settings"
+
+[node name="SettingsWindow" type="Window" parent="Control"]
+unique_name_in_owner = true
+visible = false
+
+[node name="VBoxContainer2" type="Panel" parent="Control"]
+layout_mode = 0
+offset_right = 1284.0
+offset_bottom = 724.0
+
+[node name="CloseButton" type="Button" parent="Control/VBoxContainer2"]
+layout_mode = 0
+offset_left = 601.0
+offset_top = 403.0
+offset_right = 712.0
+offset_bottom = 466.0
+theme_override_font_sizes/font_size = 40
+text = "Close"
+
+[node name="Label" type="Label" parent="Control/VBoxContainer2"]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 170.0
+offset_right = 493.0
+offset_bottom = 212.0
+theme_override_font_sizes/font_size = 30
+text = "Music Volume"
+
+[node name="MusicSlider" type="HSlider" parent="Control/VBoxContainer2"]
+layout_mode = 0
+offset_left = 522.0
+offset_top = 184.0
+offset_right = 530.0
+offset_bottom = 200.0
+min_value = -30.0
+max_value = 0.0
+
+[node name="SFXSlider" type="HSlider" parent="Control/VBoxContainer2"]
+layout_mode = 0
+offset_left = 525.0
+offset_top = 291.0
+offset_right = 533.0
+offset_bottom = 307.0
+min_value = -30.0
+max_value = 0.0
+
+[node name="Label2" type="Label" parent="Control/VBoxContainer2"]
+layout_mode = 0
+offset_left = 297.0
+offset_top = 271.0
+offset_right = 466.0
+offset_bottom = 313.0
+theme_override_font_sizes/font_size = 30
+text = "SFX Volume"
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -475,32 +593,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -99.0
-offset_top = -126.0
-offset_right = 110.0
-offset_bottom = -27.0
+offset_left = -91.0
+offset_top = -223.0
+offset_right = 118.0
+offset_bottom = -124.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 50
 text = "You Win"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="StarsLabel" type="Label" parent="CanvasLayer/WinPopup/VBoxContainer"]
-unique_name_in_owner = true
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -104.0
-offset_top = -186.0
-offset_right = 105.0
-offset_bottom = -87.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/font_size = 50
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -525,10 +625,10 @@ vertical_alignment = 1
 [node name="RestartButton" type="Button" parent="CanvasLayer/WinPopup/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 0
-offset_left = 563.0
-offset_top = 370.0
-offset_right = 728.0
-offset_bottom = 441.0
+offset_left = 571.0
+offset_top = 407.0
+offset_right = 736.0
+offset_bottom = 478.0
 theme_override_font_sizes/font_size = 45
 text = "Restart"
 
@@ -957,12 +1057,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.451591, 0.379087, 5.75014)
 [node name="Pallet8" type="Node3D" parent="Pallet"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78729, 0.453007, 0.216106)
 
-[node name="Pallet6" parent="Pallet/Pallet8" instance=ExtResource("6_0ld40")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.451591, 0.379087, 4.55488)
-
-[node name="Pallet7" parent="Pallet/Pallet8" instance=ExtResource("6_0ld40")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.451591, 0.379087, 5.75014)
-
 [node name="Pallet9" type="Node3D" parent="Pallet"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78729, 0.453007, 3.5222)
 
@@ -1086,10 +1180,10 @@ transform = Transform3D(1, 0, 0, 0, 0.993894, -0.110341, 0, 0.110341, 0.993894, 
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -33.4442, 10.3687, -17.9376)
 
 [node name="cube4" parent="cloud" instance=ExtResource("13_drtpy")]
-transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -40.2876, 9.22808, -17.3328)
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -40.2876, 12.1434, -17.3328)
 
 [node name="cube5" parent="cloud" instance=ExtResource("13_drtpy")]
-transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -48.6483, 12.1188, -14.7484)
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -48.6483, 12.8274, -14.7484)
 
 [node name="cube2" parent="cloud" instance=ExtResource("13_drtpy")]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -33.4442, 9.22808, -10.8717)
@@ -1309,11 +1403,23 @@ font_size = 50
 [node name="Main_890" type="Node3D" parent="."]
 
 [node name="flag" parent="." instance=ExtResource("34_dgi5k")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56173, 0.655697, 1.13038)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.2029, 27.2141, 5.04813)
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 5.0
 one_shot = true
 autostart = true
+
+[node name="Floor57" parent="." instance=ExtResource("18_yc10j")]
+transform = Transform3D(-0.0154256, 0.356445, 0.934189, 0.00588491, 0.934317, -0.356396, -0.999864, 0, -0.01651, -82.6739, 21.4585, 1.09979)
+
+[node name="Floor58" parent="." instance=ExtResource("18_yc10j")]
+transform = Transform3D(-0.0154256, 0.356445, 0.934189, 0.00588491, 0.934317, -0.356396, -0.999864, 0, -0.01651, -82.6739, 23.1019, 3.77422)
+
+[node name="Floor61" parent="." instance=ExtResource("18_yc10j")]
+transform = Transform3D(-0.0154256, 0.356445, 0.934189, 0.00588491, 0.934317, -0.356396, -0.999864, 0, -0.01651, -82.6739, 24.9048, 1.23292)
+
+[node name="Floor62" parent="." instance=ExtResource("18_yc10j")]
+transform = Transform3D(-0.0154256, 0.356445, 0.934189, 0.00588491, 0.934317, -0.356396, -0.999864, 0, -0.01651, -82.6739, 26.6909, 2.62534)
 
 [connection signal="coin_collected" from="Banana" to="HUD" method="_on_coin_collected"]

@@ -16,6 +16,19 @@ position = Vector2(620, 352)
 scale = Vector2(0.71, 0.71)
 texture = ExtResource("2_jix8l")
 
+[node name="title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 337.0
+offset_top = 136.0
+offset_right = 926.0
+offset_bottom = 261.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_outline_size = 10
+theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_font_sizes/font_size = 100
+text = "Candy or Can die"
+
 [node name="StartButton" type="Button" parent="."]
 layout_mode = 2
 offset_left = 596.0
